@@ -1,8 +1,15 @@
 #!/usr/bin/env node
 
-const {words} = require('superb')
+// var vert = ["Node.js Version:",
+//             "V8 Version:"]
 
-let [...args] = process.argv
+// for (let elem of vert){
 
-// process.stdout.write(`${args.toString()}\n`)
-console.log(args)
+// let [...args] = process.argv
+
+// console.log(elem, process.versions.node)}
+
+const { versions: {node, v8} } = process,
+    output = `Node.js Version: ${node}\nV8 Version: ${v8}`
+
+    console.log(output)
