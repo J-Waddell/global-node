@@ -1,0 +1,22 @@
+{
+  "name": "global-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "global.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Waddell/global-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Waddell/global-node/issues"
+  },
+  "homepage": "https://github.com/J-Waddell/global-node#readme",
+  "dependencies": {
+    "superb": "^1.3.0"
+  }
+}
